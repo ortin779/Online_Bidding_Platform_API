@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.biddingplatform.biddingplatform.BiddingplatformApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.134 s <<< FAILURE! - in com.biddingplatform.biddingplatform.BiddingplatformApplicationTests
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.biddingplatform.biddingplatform.service.EmailService] from ClassLoader [sun.misc.Launcher$AppClassLoader@6bc7c054]
+Caused by: java.lang.NoClassDefFoundError: LJavaMailSender;
+Caused by: java.lang.ClassNotFoundException: JavaMailSender
+
